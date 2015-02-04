@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      >
+<h:head>
+	<title><ui:insert name="pagetitle"/></title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+    <h:outputStylesheet library="css" name="screen.css"/>
+    </h:head>
+<body>
+<div id="header">
+	<h1>Products</h1>
+	<p id="layoutdims"><a href=""></a> | <a href=""></a> | <strong></strong></p>
+</div>
+<div class="colmask leftmenu">
+	<div class="colleft">
+		<div class="col1">
+			<!-- Column 1 start -->
+			<ui:insert name="pageContent"/>
+			<!-- Column 1 end -->
+		</div>
+		<div class="col2">
+			<!-- Column 2 start -->	
+			<p:accordionPanel>  
+    <p:tab title="Home">  
+        <h:panelGrid columns="2" cellpadding="10">  
+            <h:outputText  
+                value="" />  
+        </h:panelGrid>  
+    </p:tab>  
+   </p:accordionPanel>  			
+			<div id="ads">					
+		</div>
+	</div>
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
